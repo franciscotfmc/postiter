@@ -1,7 +1,7 @@
 postiter
 ========
 
-Simple real time board, built on the purpose to speed up our retrospective meetings at <a href="http://gerencianet.com.br" target="_blank">Gerencianet</a>.
+Simple real time board, built on the purpose to speed up our scrum retrospective meetings at <a href="http://gerencianet.com.br" target="_blank">Gerencianet</a>.
 
 Live app: <a href="http://postiter.com" target="_blank">postiter.com</a>
 
