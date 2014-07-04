@@ -1,0 +1,10 @@
+node_modules
+public
+.tmp
+.sass-cache
+client/app/bower_components
+build
+heroku
+/views
+dist
+server/config/auth.js

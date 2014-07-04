@@ -1,0 +1,23 @@
+<div id="left-bar">
+  <ul ng-show="active == 'board'">
+    <li>
+      <a href="" id="left-sidebar-new" class="item" ng-click="new()">
+        <i class="fa fa-plus"></i>
+        <span>New</span>
+      </a>
+    </li>
+
+    <li ng-if="currentBoard.owner.facebook.id == currentUser.facebook"
+        data-toggle="tooltip"
+        data-placement="right"
+        title="As a board owner, you can toggle the visibility (blurry or not) of other users texts">
+
+      <a href="" id="left-sidebar-new" class="item" ng-click="blur()">
+        <i class="fa"
+           ng-class="{'fa-eye': currentBoard.visibility == 'visible',
+                      'fa-eye-slash': currentBoard.visibility == 'blurry'}"></i>
+        <span>Blur</span>
+      </a>
+    </li>
+  </ul>
+</div>

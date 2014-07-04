@@ -1,0 +1,69 @@
+.members-box {
+  display: inline-block;
+}
+
+.members {
+  position: absolute;
+  width: 310px;
+  top: 55px;
+  right: 0;
+  background: #393737;
+  display: inline-block;
+  padding: 10px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  z-index: 9;
+
+  img {
+    margin-right: 4px;
+    margin-top: 10px;
+
+    &:hover {
+      opacity: 0.5;
+      cursor: pointer;
+    }
+  }
+
+  a {
+    color: white;
+  }
+
+  .header {
+    font-size: 0;
+    h4 {
+      display: inline-block;
+      width: 50%;
+      font-size: 14px;
+    }
+
+    span {
+      display: inline-block;
+      width: 50%;
+      font-size: 14px;
+      text-align: right;
+    }
+  }
+}
+
+.members-alpha {
+  width: 70px;
+  background: rgba(57, 55, 55, 0.38);
+}
+
+.invite-users {
+  width: 300px;
+  padding-left: 0;
+
+  span {
+    border-radius: 0;
+  }
+
+  i {
+    color: black;
+  }
+}
+
+.typeahead-member {
+  line-height: 50px !important;
+}
+

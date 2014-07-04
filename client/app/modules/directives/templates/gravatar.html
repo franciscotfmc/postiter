@@ -1,0 +1,19 @@
+<span class="avatar pull-right">
+  <img ng-if="showGravatar"
+       alt="{{name}}"
+       height="{{height}}"
+       width="{{width}}"
+       ng-src="https://secure.gravatar.com/avatar/{{emailHash}}.jpg?s={{width}}"
+       class="img-circle">
+
+  <span>
+    <i ng-if="remove">Remove</i>
+    <img ng-if="showFacebook"
+         alt="{{name}}"
+         height="{{height}}"
+         width="{{width}}"
+         ng-click="click(data)"
+         ng-src="https://graph.facebook.com/{{fb}}/picture?type=square"
+         class="img-circle">
+  </span>
+</span>

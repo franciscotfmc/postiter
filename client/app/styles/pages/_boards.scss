@@ -1,0 +1,19 @@
+.blur-title {
+    text-shadow: 1px 1px 3px black;
+    text-align: center;
+}
+
+.board-list {
+  position: relative;
+  display: block;
+  .archive-board {
+      position: absolute;
+      right: 18px;
+      display: inline-block;
+      text-align: right;
+      z-index: 0;
+      bottom: 33px;
+      border-radius: 30px;
+  }
+}
+

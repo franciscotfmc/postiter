@@ -1,0 +1,50 @@
+ <span class="members pull-right" ng-class="{'members-alpha': !showMembers}" ng-controller="MembersCtrl">
+  <div ng-show="showMembers" ng-animate="{enter: 'animate-enter', leave: 'animate-leave'}">
+    <div class="header">
+      <h4>Members</h4>
+      <span>
+        <a href="" ng-click="toggleShowMembers()">
+          Hide
+          <i class="fa fa-angle-double-right"></i>
+        </a>
+      </span>
+
+    </div>
+
+    <div class="input-group invite-users input-sm" ng-show="title">
+      <input type="text"
+             class="form-control"
+             placeholder="Add members..."
+             ng-model="friend.selected"
+             typeahead-min-length="3"
+             typeahead-on-select="addMember($item, $model, $label)"
+             typeahead-editable="true"
+             typeahead="friend as friend.name for friend in friends.data | filter:{name:$viewValue}"
+             typeahead-template-url="modules/boards/views/_typeahead_members.html">
+
+      <span class="input-group-addon">
+        <a><i class="fa fa-users"></i></a>
+      </span>
+    </div>
+
+    <span class="members-box">
+      <span ng-repeat="user in board.users"
+            gravatar
+            height="32"
+            remove="true"
+            name="{{user.facebook.name}}"
+            click="deleteMember(user)"
+            width="32"
+            fb="{{user.facebook.id}}"
+            class="pull-left"
+            ></span>
+    </span>
+
+  </div>
+  <div ng-show="!showMembers">
+    <a href="" ng-click="toggleShowMembers()">
+      <i class="fa fa-angle-double-left"></i>
+      Show
+    </a>
+  </div>
+</span>

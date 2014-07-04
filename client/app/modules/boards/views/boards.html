@@ -1,0 +1,56 @@
+<div id="content">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <form role="form" name="form" novalidate ng-submit="create()">
+          <div class="form-group form-inline">
+            <input  required type="text"
+                    ng-model="board.title"
+                    name="title"
+                    maxlength="30"
+                    class="form-control"
+                    placeholder="Enter board title...">
+          </div>
+
+          <button type="submit"
+                  class="btn btn-lg btn-success"
+                  role="button"
+                  ng-disabled="!form.$valid">Create Board
+                  </button>
+        </form>
+
+        <p class="lead"></p>
+
+        <div class="">
+          <h1>
+            Your boards
+          </h1>
+          <p class="lead"></p>
+        </div>
+
+        <div class="list-group">
+          <span ng-repeat="board in boards" class="board-list">
+            <a href="#/board/{{board._id}}" class="list-group-item">
+              <h4 class="list-group-item-heading">{{board.title}}</h4>
+              <span class="badge hidden-xs" ng-show="board.cards.length > 0">
+                {{board.cards.length}}
+                <ng-pluralize count="board.cards.length" when="{'one': 'card', 'other': 'cards'}" />
+              </span>
+              <p class="list-group-item-text">
+                <strong>Created by </strong> {{board.owner.facebook.name}}
+              </p>
+            </a>
+            <button ng-click="delete(board)"
+                    class="btn btn-default btn-xs archive-board"
+                    data-toggle="tooltip"
+                    data-placement="bottom"
+                    title="Archive">
+              <i class="fa fa-archive"></i>
+            </button>
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+

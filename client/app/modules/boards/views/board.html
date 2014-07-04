@@ -1,0 +1,67 @@
+<div id="content">
+  <div class="container">
+    <div class="row">
+      <div ng-include="'modules/boards/views/_members.html'"></div>
+      <div class="post-it">
+        <ul>
+           <li ng-repeat="card in board.cards"
+               data-drop="true"
+               ng-model="board.cards"
+               jqyoui-droppable="{index: {{$index}}}">
+
+              <a class="{{card.style.color}}"
+                ng-class="{ 'expand': card.style.expand,
+                            'hover': card.style.hover,
+                            'edit': card.style.edit,
+                            'dragging': card.style.transparent}"
+                ng-mouseover="mouseover(card)"
+                ng-mouseleave="mouseleave(card)"
+                data-drag="{{!card.style.expand}}"
+                data-jqyoui-options="{revert: 'invalid'}"
+                ng-model="board.cards"
+                scrollable="{'suppressScrollX': true}"
+                jqyoui-draggable="{ index: {{$index}},
+                                    animate:false,
+                                    onStart: 'dragStart(card)',
+                                    onStop: 'dragStop(card)'}">
+
+                <p ng-dblclick="edit($event, card)">
+                  <i class="fa toggleable"
+                     ng-class="{'fa-thumbs-up': card.meta.thumb, 'fa-thumbs-down': !card.meta.thumb}"
+                     ng-click="toggleThumb(card)"></i>
+
+                  <span gravatar
+                        height="24"
+                        width="24"
+                        name="{{card.user.name}}"
+                        fb="{{card.user.facebook}}">
+                        </span>
+
+                  <span class="text-content">
+                    <span ng-class="{blur: board.visibility == 'blurry'
+                                  && board.owner.facebook.id != currentUser.facebook
+                                  && card.user.facebook != currentUser.facebook
+                                  && card.user.facebook}">
+                        {{card.meta.text}}
+                    </span>
+                  </span>
+                </p>
+
+                <textarea
+                  ng-class="{blur: board.visibility == 'blurry'
+                                && board.owner.facebook.id != currentUser.facebook
+                                && card.user.facebook != currentUser.facebook
+                                && card.user.facebook}"
+                  ng-model="card.meta.text"
+                  scrollable="{'suppressScrollX': true}">
+                  </textarea>
+
+                <div ng-include="'modules/boards/views/_actions.html'"></div>
+              </a>
+          </li>
+        </ul>
+      </div> <!-- post-it -->
+    </div> <!-- row -->
+  </div> <!-- container -->
+</div> <!-- content -->
+

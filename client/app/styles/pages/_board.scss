@@ -1,0 +1,156 @@
+.post-it {
+
+  height: 100%;
+
+  textarea {
+    display: none;
+  }
+
+  .btn-group {
+    display: none;
+  }
+
+  * {
+    margin:0;
+    padding:0;
+  }
+
+  ul li a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    height: 200px;
+    width: 200px;
+    padding: 5px;
+    border-bottom: 1px solid white;
+    -moz-box-shadow: 2px 2px 7px rgba(33,33,33,1);
+    -webkit-box-shadow: 2px 2px 7px rgba(33,33,33,.7);
+    -moz-transition: -moz-transform .15s linear;
+    -o-transition: -o-transform .15s linear;
+    -webkit-transition: -webkit-transform .15s linear;
+  }
+
+  ul li {
+    margin: 2px;
+    float: left;
+    position: relative;
+    cursor: pointer;
+    height: 200px;
+    width: 200px;
+  }
+
+  ul li p {
+    font-family: "Reenie Beanie", "Open Sans", arial, sans-serif;
+    font-size: 14px;
+    height: 95%;
+    height: 200px;
+    word-wrap: break-word;
+  }
+
+  .hover {
+    position: relative;
+    z-index: 1;
+    box-shadow: 4px 4px 7px rgba(0,0,0,.7);
+    -moz-box-shadow: 4px 4px 7px rgba(0,0,0,.7);
+    -webkit-box-shadow: 4px 4px 7px rgba(0,0,0,.7);
+
+    p {
+      height: 100%;
+      // overflow-y: auto;
+    }
+
+    .btn-group {
+      display: inline;
+      position: absolute;
+      right: 5px;
+      bottom: 2px;
+      opacity: 0.3;
+      &:hover {
+        opacity: 1;
+      }
+    }
+
+    button {
+      padding: 2px 5px;
+    }
+  }
+
+  .expand {
+    min-height: 160px;
+    height: 300px;
+    position: absolute !important;
+    width: 300px;
+    z-index: 9999;
+    -webkit-transform: scale(1.35);
+    -moz-transform: scale(1.35);
+    -o-transform: scale(1.35);
+
+    p {
+      height: 100%;
+    }
+  }
+
+  .edit {
+    min-height: 160px;
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    padding: 5px;
+    border-style: dashed;
+    border-width: 1px;
+
+    p {
+      display: none;
+    }
+
+    textarea {
+      resize: none;
+      width: 100%;
+      height: 100%;
+      border: 0;
+      font-family:"Reenie Beanie", "Open Sans", arial, sans-serif;
+      font-size: 15px;
+      background-color: inherit;
+      display: inline;
+      outline: none;
+    }
+  }
+
+  .toggleable {
+    &:hover {
+      opacity: 0.5;
+    }
+  }
+
+  .text-content {
+    border-top: 1px dashed $gray-1;
+    width: 100%;
+    margin-top: 5px;
+    padding-top: 5px;
+    display: inline-block;
+  }
+}
+
+.red {
+  background-color: $red;
+}
+
+.yellow {
+  background-color: $yellow;
+}
+
+.green {
+  background-color: $green;
+}
+
+.dragging {
+  border-radius: 3px;
+}
+
+.blur {
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+}

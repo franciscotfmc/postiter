@@ -1,0 +1,551 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"exp",
+				"expect"
+			],
+			[
+				"keep",
+				"express-keepalive"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"marin",
+				"margin-top"
+			],
+			[
+				"angular",
+				"angular"
+			],
+			[
+				"client",
+				"clientTest"
+			],
+			[
+				"spec",
+				"specFolders"
+			],
+			[
+				"spe",
+				"specFolders"
+			],
+			[
+				"jasmine",
+				"jasmine_node"
+			],
+			[
+				"it",
+				"itb	RSpec It Block"
+			],
+			[
+				"bor",
+				"border-top"
+			],
+			[
+				"impo",
+				"important"
+			],
+			[
+				"fo",
+				"focus"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"no",
+				"no_round"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"pro",
+				"Project: Save As"
+			],
+			[
+				"project",
+				"Project: Save As"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"be",
+				"BeautifyRuby"
+			],
+			[
+				"bea",
+				"BeautifyRuby"
+			],
+			[
+				"ruby",
+				"Format: Ruby"
+			],
+			[
+				"inden",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"inde",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"html",
+				"HTML Export: Current File"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 139.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/francisco/projects/node/postiter/server/middleware.js",
+		"/home/francisco/projects/node/postiter/node_modules/passport/lib/strategies/session.js",
+		"/home/francisco/projects/node/postiter/package.json",
+		"/home/francisco/projects/node/postiter/server/config/dummydata.js",
+		"/home/francisco/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
+		"/home/francisco/projects/node/postiter/server/models/users.js",
+		"/home/francisco/projects/node/postiter/server/models/user.js",
+		"/home/francisco/projects/node/postiter/server/controllers/cards.js",
+		"/home/francisco/projects/node/postiter/server/server.js",
+		"/home/francisco/projects/node/postiter/server/config/express.js",
+		"/home/francisco/projects/node/postiter/server/config/config.js",
+		"/home/francisco/projects/node/postiter/server/config/envs/test.js",
+		"/home/francisco/projects/node/postiter/server/config/envs/development.js",
+		"/home/francisco/projects/node/postiter/server/config/envs/production.js",
+		"/home/francisco/projects/node/postiter/postiter.sublime-project",
+		"/home/francisco/projects/node/postiter/postiter.sublime-workspace",
+		"/home/francisco/projects/node/postiter/node_modules/grunt-google-cdn/node_modules/bower/node_modules/request/node_modules/form-data/node-form-data.sublime-project",
+		"/home/francisco/projects/node/postiter/server/start/server.js",
+		"/home/francisco/projects/node/postiter/client/app/modules/boards/views/boards.html",
+		"/home/francisco/projects/node/postiter/client/app/modules/boards/controllers/board.ctrl.js",
+		"/home/francisco/projects/node/postiter/client/app/modules/boards/controllers/boards.ctrl.js",
+		"/home/francisco/projects/node/postiter/server/express/test.js",
+		"/home/francisco/projects/node/postiter/test/.jshintrc",
+		"/home/francisco/projects/node/postiter/server/.jshintrc",
+		"/home/francisco/projects/node/postiter/Gruntfile.js",
+		"/home/francisco/projects/node/postiter/server/routes.js",
+		"/home/francisco/projects/node/postiter/server/config/test.js",
+		"/home/francisco/projects/node/postiter/server/config/passport.js",
+		"/home/francisco/projects/node/postiter/server/config/auth.js",
+		"/home/francisco/.config/sublime-text-2/Packages/User/JsFormat.sublime-settings",
+		"/home/francisco/.config/sublime-text-2/Packages/JsFormat/JsFormat.sublime-settings",
+		"/home/francisco/projects/node/postiter/client/app/modules/boards/boards.js",
+		"/home/francisco/projects/node/postiter/client/app/modules/app.js",
+		"/home/francisco/projects/node/postiter/test/client/modules/boards/controllers/boards.ctrl.spec.js",
+		"/home/francisco/projects/node/postiter/test/client/modules/boards/controllers/board.ctrl.spec.js",
+		"/home/francisco/projects/node/postiter/client/app/modules/boards/services/board.service.js",
+		"/home/francisco/projects/node/postiter/client/app/modules/services/user.service.js",
+		"/home/francisco/projects/node/postiter/client/app/modules/boards/services/Board.js",
+		"/home/francisco/projects/node/postiter/karma.conf.js",
+		"/home/francisco/projects/node/postiter/test/client/helper.js",
+		"/home/francisco/projects/node/postiter/test/client/modules/restrospective/board.ctrl.spec.js",
+		"/home/francisco/projects/node/postiter/client/app/modules/retrospective/controllers/board.ctrl.js",
+		"/home/francisco/projects/node/postiter/client/app/modules/layout/views/left_bar.html",
+		"/home/francisco/projects/node/postiter/client/app/modules/layout/views/top_bar.html",
+		"/home/francisco/projects/node/postiter/client/app/modules/retrospective/views/board.html",
+		"/home/francisco/projects/node/postiter/client/app/styles/main.scss",
+		"/home/francisco/projects/node/postiter/client/app/modules/retrospective/retrospective.js",
+		"/home/francisco/projects/node/postiter/test/server/first.spec.js",
+		"/home/francisco/projects/node/postiter/node_modules/grunt-jasmine-node/tasks/jasmine-node-task.js",
+		"/home/francisco/projects/node/postiter/test/client/first.spec.js",
+		"/home/francisco/projects/node/postiter/client/app/application.html",
+		"/home/francisco/projects/node/postiter/client/.jshintrc",
+		"/home/francisco/projects/node/postiter/bower.json",
+		"/home/francisco/projects/node/postiter/.gitignore",
+		"/home/francisco/projects/node/postiter/.bowerrc",
+		"/home/francisco/projects/node/_mean/lib/controllers/users.js",
+		"/home/francisco/projects/node/_mean/bower.json",
+		"/home/francisco/projects/node/_mean/app/styles/main.scss",
+		"/home/francisco/projects/node/_mean/.editorconfig",
+		"/home/francisco/projects/rails/ustick/config/initializers/devise.rb",
+		"/home/francisco/projects/rails/ustick/Gemfile",
+		"/home/francisco/projects/rails/ustick/config/routes.rb",
+		"/home/francisco/projects/rails/ustick/spec/controllers/omniauth_callbacks_controller_spec.rb",
+		"/home/francisco/projects/rails/ustick/app/controllers/users/omniauth_callbacks_controller.rb",
+		"/home/francisco/projects/rails/ustick/app/models/user.rb",
+		"/home/francisco/projects/rails/ustick/spec/spec_helper.rb",
+		"/home/francisco/projects/rails/ustick/config/environments/development.rb",
+		"/home/francisco/projects/rails/ustick/spec/helpers/main_helper_spec.rb",
+		"/home/francisco/projects/rails/ustick/app/controllers/application_controller.rb",
+		"/home/francisco/projects/rails/ustick/app/controllers/main_controller.rb",
+		"/home/francisco/projects/rails/ustick/spec/controllers/main_controller_spec.rb",
+		"/home/francisco/projects/rails/ustick/public/robots.txt",
+		"/home/francisco/projects/rails/ustick/public/dist/robots.txt",
+		"/home/francisco/projects/rails/ustick/app/assets/javascripts/application.js",
+		"/home/francisco/projects/rails/ustick/app/views/main/index.html.erb",
+		"/home/francisco/projects/rails/ustick/app/views/layouts/application.html.erb",
+		"/home/francisco/projects/rails/ustick/bower.json",
+		"/home/francisco/projects/rails/ustick/app/assets/stylesheets/main.css.scss",
+		"/home/francisco/projects/rails/ustick/ngapp/Gruntfile.js",
+		"/home/francisco/projects/rails/ustick/app/assets/stylesheets/bootstrap_and_overrides.css.scss",
+		"/home/francisco/projects/rails/ustick/.bowerrc",
+		"/home/francisco/projects/rails/ustick/ngapp/bower.json",
+		"/home/francisco/projects/rails/ustick/public/index.html",
+		"/home/francisco/projects/rails/ustick/ngapp/app/modules/retrospective/retrospective.js",
+		"/home/francisco/projects/rails/ustick/ngapp/app/modules/retrospective/controllers/board.ctrl.js",
+		"/home/francisco/projects/rails/ustick/ngapp/app/index.html",
+		"/home/francisco/projects/rails/ustick/ngapp/app/styles/main.scss",
+		"/home/francisco/projects/rails/ustick/ngapp/app/modules/retrospective/views/board.html",
+		"/home/francisco/projects/rails/ustick/ngapp/dist/index.html",
+		"/home/francisco/projects/rails/ustick/ngapp/app/modules/retrospective/controllers/board.js",
+		"/home/francisco/projects/rails/ustick/ngapp/app/modules/retrospective/controllers/main.js",
+		"/home/francisco/projects/rails/ustick/ngapp/app/modules/retrospective/views/main.html",
+		"/home/francisco/projects/rails/ustick/ngapp/app/modules/retrospective/views/info_area.html",
+		"/home/francisco/projects/rails/ustick/ngapp/app/modules/retrospective/views/infoarea.html",
+		"/home/francisco/projects/rails/ustick/ngapp/app/modules/layout/content.html",
+		"/home/francisco/projects/rails/ustick/ngapp/app/modules/layout/topbar.html",
+		"/home/francisco/projects/rails/ustick/ngapp/app/modules/layout/leftbar.html",
+		"/home/francisco/projects/rails/ustick/ngapp/app/modules/app.js",
+		"/home/francisco/projects/rails/ustick/ngapp/app/views/main.html",
+		"/home/francisco/projects/rails/ustick/ngapp/package.json",
+		"/home/francisco/projects/rails/sample_app/app/models/user.rb",
+		"/home/francisco/projects/rails/sample_app/app/controllers/users_controller.rb",
+		"/home/francisco/projects/rails/sample_app/app/assets/stylesheets/static_pages.css.scss",
+		"/home/francisco/projects/rails/sample_app/app/assets/stylesheets/custom.css.scss",
+		"/home/francisco/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
+		"/home/francisco/.config/sublime-text-2/Packages/Default/Default (Linux).sublime-keymap",
+		"/home/francisco/.config/sublime-text-2/Packages/SideBarEnhancements/messages/11.13.2012.1305.0.txt",
+		"/home/francisco/projects/rails/sample_app/config/initializers/secret_token.rb",
+		"/home/francisco/projects/rails/sample_app/Gemfile",
+		"/home/francisco/projects/rails/sample_app/.gitignore"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"58",
+			"wat",
+			"35729",
+			"serialize",
+			"session",
+			"cookie",
+			"first",
+			"passport",
+			"user",
+			"newUser",
+			"');\n",
+			"passport",
+			"express",
+			"hide",
+			"folders",
+			"env",
+			"fullstack-test",
+			"mongodb://localhost/fullstack-test",
+			"express",
+			"card",
+			"Card",
+			"port",
+			"config",
+			"port",
+			"env/all.js",
+			"process.env",
+			"serverTest",
+			"wait",
+			"reload",
+			"\"",
+			"retrospective",
+			"\"",
+			"jshint",
+			"default",
+			">\n",
+			" #",
+			"meanApp",
+			"karma",
+			"jshint",
+			"concurrent",
+			"express-keepalive",
+			"'express-keepalive",
+			"newer",
+			"all",
+			"jasmine",
+			"load",
+			"node",
+			"jasmine",
+			"unit",
+			"jasmine",
+			"test",
+			"concurrent",
+			"client",
+			"app",
+			".app",
+			".",
+			"socke",
+			"socket",
+			"10px",
+			"hover",
+			"5px 5px",
+			"float",
+			"mongo",
+			"theme",
+			"index",
+			"=>",
+			" => {",
+			"=> ",
+			"provider",
+			"print",
+			"new_with_session",
+			".",
+			"\"",
+			" =>",
+			"info\" ",
+			"\"",
+			"opts",
+			"'\n",
+			"root",
+			"\n      ",
+			"3000",
+			"proxy",
+			"\"",
+			"\n",
+			"require",
+			"require \"omniauth-facebook\"\nconfig.omniauth",
+			"require \"omniauth-facebook\"\nconfig.omniauth :facebook, \"APP_ID\", \"APP_SECRET\"",
+			"rev",
+			"Usemin",
+			"rotate(0deg)",
+			");\n",
+			"rotate(0deg);",
+			"rotate(0deg)",
+			"side",
+			"right",
+			"important",
+			");",
+			"important",
+			"pos",
+			"card",
+			"event",
+			"yel",
+			"livereloa",
+			"inje",
+			"inject",
+			"live",
+			"scripts",
+			"textarea",
+			"ex3",
+			"default",
+			"flame",
+			"textarea",
+			"))\n",
+			"%>'\n",
+			"connect",
+			"concurrent",
+			"prox",
+			"livereload",
+			"root",
+			"',\n",
+			"run",
+			"live",
+			"connect",
+			"black",
+			"bold",
+			"ctrl+k",
+			"ctrl+b",
+			"ctrl+k+b"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"packa",
+				"package.json"
+			],
+			[
+				"lib/strategies/session.js",
+				"node_modules/passport/lib/strategies/session.js"
+			],
+			[
+				"grunt",
+				"Gruntfile.js"
+			],
+			[
+				"server",
+				"server/server.js"
+			],
+			[
+				"sublime-proje",
+				"node_modules/grunt-google-cdn/node_modules/bower/node_modules/request/node_modules/form-data/node-form-data.sublime-project"
+			],
+			[
+				"user",
+				"server/models/user.js"
+			],
+			[
+				"routes",
+				"server/routes.js"
+			],
+			[
+				"grun",
+				"Gruntfile.js"
+			],
+			[
+				"karma",
+				"karma.conf.js"
+			],
+			[
+				"boar",
+				"client/app/modules/retrospective/views/board.html"
+			],
+			[
+				"mains",
+				"client/app/styles/main.scss"
+			],
+			[
+				"bow",
+				"bower.json"
+			],
+			[
+				"gem",
+				"Gemfile"
+			],
+			[
+				"bowe",
+				"ngapp/bower.json"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 280.0,
+	"status_bar_visible": true
+}

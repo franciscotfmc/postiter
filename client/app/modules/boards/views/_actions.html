@@ -1,0 +1,21 @@
+<div class="btn-group">
+  <button type="button" class="btn btn-default" ng-click="save(card)">
+    <i class="fa fa-floppy-o"></i>
+  </button>
+
+  <button type="button" class="btn btn-default" ng-click="expand($event, card)">
+    <i class="fa" ng-class="{'fa-expand': !card.style.expand, 'fa-compress': card.style.expand}"></i>
+  </button>
+
+  <button type="button" class="btn btn-default" ng-click="toggleColor(card)">
+    <i class="fa fa-tint"></i>
+  </button>
+
+  <button type="button" class="btn btn-default" ng-click="edit($event, card)">
+    <i class="fa fa-pencil-square-o"></i>
+  </button>
+
+  <button type="button" class="btn btn-default" ng-click="delete(card)">
+    <i class="fa fa-trash-o"></i>
+  </button>
+</div>
