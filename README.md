@@ -8,8 +8,8 @@ Live app: <a href="http://postiter.com" target="_blank">postiter.com</a>
 It's also a proof of concept of the MEAN architecture and some other ideas:
 * use grunt tasks to build the app, among other dev environment issues
 * keep things running clean in one terminal tab, like the express server, client and server unit tests with jasmine
-* use mongo to optimize data reading
-* use node view engine before login
+* use Mongo to optimize data reading
+* use Node view engine before login
 * load Angular app only after login and never more
 * isolate server and client code
 * the client app must be built in small modules
