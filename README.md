@@ -18,25 +18,21 @@ It's also a proof of concept of the MEAN architecture and some other ideas:
 ### Running the app
 
 Clone postiter:
-
 ```console
 git clone git@github.com:franciscotfmc/postiter.git
 ```
 
 Install server dependencies:
-
 ```console
 npm install
 ```
 
 Install client dependencies:
-
 ```console
 bower install
 ```
 
 Copy the auth.js file in ignored folder and put it in server/config directory. As the login is via Facebook, you will need to configure an id:
-
 ```javascript
 module.exports = {
   'facebookAuth': {
@@ -49,7 +45,6 @@ module.exports = {
 ```
 
 Run the app with grunt:
-
 ```console
 grunt serve
 ```
