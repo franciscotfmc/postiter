@@ -8,3 +8,4 @@ heroku
 /views
 dist
 server/config/auth.js
+postiter.sublime-workspace
