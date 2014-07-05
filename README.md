@@ -5,7 +5,7 @@ Simple real time board, built on the purpose to speed up our scrum retrospective
 
 Live app: <a href="http://postiter.com" target="_blank">postiter.com</a>
 
-It's also a proof of concept of the MEAN architecture and some other ideas:
+It's also a proof of concept of the MEAN stack and some other ideas:
 * use grunt tasks to build the app, among other dev environment issues
 * keep things running clean in one terminal tab, like the express server, client and server unit tests with jasmine
 * use Mongo to optimize data reading
